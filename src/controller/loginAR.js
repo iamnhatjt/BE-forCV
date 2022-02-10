@@ -17,7 +17,7 @@ const login = (req, res) => {
       } else {
         res.json({
           status: "failure",
-          message: "Thông tin không chính xác hoặc đăng ký",
+          message: "Thông tin không chính xác hoặc chưa đăng ký",
         });
       }
     })
