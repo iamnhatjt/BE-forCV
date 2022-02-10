@@ -9,7 +9,7 @@ const loginAR = require("./src/router/loginAR");
 // middle ware
 
 var corsOptions = {
-  origin: "*",
+  origin: "http://localhost:3000",
   credentials: true,
 };
 app.use(bodyParser.urlencoded({ extended: false }));
